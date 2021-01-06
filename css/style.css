@@ -1,0 +1,238 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+
+/* Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* Heaser Section Start */
+.header{
+    width: 1170px;
+    height: 80px;
+    display: block;
+}
+.inner-header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.logo{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo h1{
+    color: #363958;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase
+}
+.logo span{
+    color: #FF8367;
+}
+.navbar{
+    float: right;
+    height: 100%;
+}
+.navbar a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.navbar a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #363958;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Heaser Section End */
+
+/* Banner Section Start */
+.banner-section{
+    padding: 50px 0px;
+    overflow: hidden;
+    width: 100%;
+}
+.left-side-content{
+    width: 50%;
+    float: left;
+    padding-top: 4%
+}
+.left-side-content h1{
+    color: #363958;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.left-side-content span {
+    color: #FF8367;
+}
+.left-side-content p{
+    color: #3E3E3E;
+    font-size: 28px;
+    padding: 30px 0px;
+}
+.banner-btn, .about-btn{
+    background: #F76960;
+    color: #fff;
+    padding: 10px 20px;
+}
+.right-side-content{
+    width: 38%;
+    float: right;
+}
+.right-side-content img{
+    width: 100%;
+}
+/* Banner Section End */
+
+/* About me Section Start */
+.about-section{
+    padding: 50px 0px;
+    overflow: hidden;
+}
+.about-section-img{
+float: left;
+width: 30%;
+}
+.about-section-img img{
+    width: 100%;
+}
+.about-section-content{
+    float: right;
+    width: 50%;
+    padding-top: 4%;
+}
+.about-section-content h1{
+    color: #363958;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.about-section-content p{
+    color: #3E3E3E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 28px;
+}
+/* About me Section End */
+
+/* Our Project Section Start */
+.project-section{
+    background: #F8F9FC;
+    padding: 50px 0px;
+    overflow: hidden;
+    width: 100%;
+}
+.project-section h1{
+    text-align: center;
+    font-size: 30px;
+    color: #363958;
+    padding-bottom: 100px;
+}
+.project-section span{
+    color: #F76960;
+}
+.box{
+    -webkit-box-shadow: 1px 2px 7px 6px #DDDDDD;
+    box-shadow: 1px 2px 7px 6px #DDDDDD;
+    width: 30.3333%;
+    float: left;
+    padding: 10px 20px;
+    margin-right: 23px;
+}
+.box h2{
+    padding-top: 20px;
+}
+.box p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.box img{
+    width: 100%;
+}
+/* Our Project Section End */
+
+
+/* Work Inquiry Section Star */
+.inquiry-section{
+    background: url(../images/bg.png) no-repeat center top;
+    background-size: auto;
+    background-size: contain;
+    overflow: hidden;
+    padding: 82px 0px;
+    width: 54%;
+    margin: 70px auto;
+}
+.inquiry-left-content {
+    float: left;
+    width: 50%;
+}
+.inquiry-left-content h1{
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 36px;
+}
+.inquiry-right-content{
+    float: left;
+    width: 50%;
+}
+.inner-btn{
+    background: #F76960;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+/* Work Inquiry Section End */
+
+/* Stay connected Section Start */
+.connected-sectiom{
+    padding: 100px 0px;
+    overflow: hidden;
+}
+.connected-sectiom h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding-bottom: 18px;
+}
+.connected-sectiom h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.s-content{
+
+}
+.s-content ul{}
+.s-content ul li{}
+/* Stay connected Section Start */
